@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Overpass", sans-serif;
+}
+body {
+  height: 100vh;
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 350px;
+  height: 350px;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  color: white;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.box .image {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: hsl(213, 20%, 24%);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box .image img {
+    width: 20px;
+}
+.box p {
+    font-size: 13px;
+    color: hsl(216, 12%, 54%);
+    line-height: 1.5;
+    margin-top: -20px;
+}
+.rating {
+    display: flex;
+    justify-content: space-evenly;
+}
+.rating span {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: hsl(213, 20%, 24%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: hsl(216, 12%, 54%);
+}
+.rating .active {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+.rating span:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+.box button {
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.box button:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+.ty {
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.ty h2 {
+    margin-bottom: 10px;
+}
+.ty span {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 20%, 24%);
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
